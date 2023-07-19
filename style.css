@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Ae;
+  src: url(font/Aestetico\ .otf);
+}
+@font-face {
+  font-family: Nexa;
+  src: url(font/Nexa-Heavy.ttf);
+}
+@font-face {
+    font-family:Jose ;
+    src: url(font/Jose\ 1.ttf);
+}
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.logo {
+  text-decoration: none;
+  margin-left: 60px;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Nexa;
+}
+
+span {
+  color: pink;
+}
+.navbar a {
+  text-decoration: none;
+  padding-right: 35px;
+  font-size: 16px;
+  font-family: Ae;
+  color: white;
+}
+ a:hover{
+    color: red;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-family: Jose;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
