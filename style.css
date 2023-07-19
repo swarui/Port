@@ -16,6 +16,7 @@
     src: url(font/Jose\ 1.ttf);
 }
 body {
+    height: -webkit-fill-available;
   background: linear-gradient(
     109.6deg,
     rgb(36, 45, 57) 11.2%,
@@ -65,4 +66,7 @@ h3{
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
+}
+html{
+    height: -webkit-fill-available;
 }
